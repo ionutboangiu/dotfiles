@@ -7,8 +7,6 @@ firefox \
 ttf-jetbrains-mono \
 git \
 stow \
-wl-clipboard \
-go \
+ripgrep unzip make gcc go wl-clipboard neovim \
 tmux \
-neovim \
 docker
