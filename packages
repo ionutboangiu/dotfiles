@@ -1,0 +1,14 @@
+sudo pacman -S \
+man-db man-pages \
+foot \
+sway swaymsg swayidle swaylock swaybar swaybg \
+openssh \
+firefox \
+ttf-jetbrains-mono \
+git \
+stow \
+wl-clipboard \
+go \
+tmux \
+neovim \
+docker
