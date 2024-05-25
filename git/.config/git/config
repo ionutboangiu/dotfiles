@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[user]
+	name = ionutboangiu
+	email = ionutboangiu@gmail.com
+[core]
+	editor = vim
+[push]
+	default = nothing
