@@ -1,5 +1,3 @@
-swayidle -w \
-	timeout 1000 'swaylock -f -c 000000' \
-	timeout 900 'swaymsg "output * dpms off"' \
-	     resume 'swaymsg "output * dpms on"' \
-	before-sleep 'swaylock -f -c 000000'
+timeout 30 'swaylock'
+timeout 40 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"'
+#before-sleep 'swaylock'
