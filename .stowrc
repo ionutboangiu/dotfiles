@@ -1,0 +1,5 @@
+--target=/home/$USER
+--ignore='^greetd'
+--ignore='^sway-run'
+--ignore='^backgrounds'
+--ignore='^\.'
