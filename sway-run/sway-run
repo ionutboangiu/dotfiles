@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Session
+export XDG_SESSION_DESKTOP=sway
+export XDG_CURRENT_DESKTOP=sway
+
+# Wayland stuff
+export MOZ_ENABLE_WAYLAND=1
+
+#exec sway "$@"
+
+# Have sway output go to the journal.
+exec systemd-cat --identifier=sway sway "$@"
