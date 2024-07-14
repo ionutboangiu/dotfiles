@@ -1,0 +1,8 @@
+[options]
+CacheDir = /var/cache/pacman/pkg
+CacheDir = /var/cache/pacman/aurpkg
+CleanMethod = KeepCurrent
+
+[aurpkg]
+SigLevel = Optional TrustAll
+Server = file:///var/cache/pacman/aurpkg
