@@ -1,11 +1,26 @@
 #!/bin/sh
 
+# editor
+export EDITOR=vim
+
+# freedesktop vars
+export XDG_DATA_HOME=$HOME/.local/share
+
 # Session
 export XDG_SESSION_DESKTOP=sway
 export XDG_CURRENT_DESKTOP=sway
 
-# Wayland stuff
+# firefox
 export MOZ_ENABLE_WAYLAND=1
+
+# GnuPG
+export GNUPGHOME=$XDG_DATA_HOME/gnupg
+
+# password manager
+export PASSWORD_STORE_DIR=$XDG_DATA_HOME/password-store
+export PASSWORD_STORE_CLIP_TIME=15
+export PASSWORD_STORE_GENERATED_LENGTH=16
+export PASSWORD_STORE_GPG_OPTS="--no-throw-keyids" # fix for android pw store
 
 #exec sway "$@"
 
